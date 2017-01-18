@@ -7,9 +7,9 @@
 ##
 ![screenshot_1484750102](https://cloud.githubusercontent.com/assets/21304543/22071330/18caf026-dd9f-11e6-9916-1466af5a375b.png)
 ##
-## Pour lire le détail de la nouvelle, cliquer la carte. 
+## Le détail de la nouvelle sur le web browser en cliquant la carte. 
 ##
-[screenshot_1484750130](https://cloud.githubusercontent.com/assets/21304543/22071601/f20a6592-dd9f-11e6-93a6-c7f4862d347e.png)
+![screenshot_1484750206](https://cloud.githubusercontent.com/assets/21304543/22072018/459981f6-dda1-11e6-8772-b492d5c80bf4.png)
 ##
 ## Un boutton en haut à gauche ouvre un menu de navigation. Filter les nouvelles par secteur ou regarder le critique de cinéma
 ##
