@@ -9,17 +9,17 @@
 ##
 ## Le détail de la nouvelle sur le web browser en cliquant la carte. 
 ##
-![screenshot_1484750206](https://cloud.githubusercontent.com/assets/21304543/22072018/459981f6-dda1-11e6-8772-b492d5c80bf4.png)
+![screenshot_1484750130](https://cloud.githubusercontent.com/assets/21304543/22072751/9b508e3a-dda3-11e6-8d82-278d7e3385b8.png)
 ##
-## Un boutton en haut à gauche ouvre un menu de navigation. Filter les nouvelles par secteur ou regarder le critique de cinéma
+## Le menu de navigation à partir du boutton en haut à gauche. On peux filter les nouvelles par secteur et lire le critique du cinéma
 ##
-![screenshot_1484750206](https://cloud.githubusercontent.com/assets/21304543/22071581/da7ee736-dd9f-11e6-8f35-4df546b3bbd2.png)
+
 ##
-## Nouvelles filtrées par le secteur "world"
+## Les nouvelles sont maintenant filtrées par le secteur "world"
 ##
 ![screenshot_1484750167](https://cloud.githubusercontent.com/assets/21304543/22071846/c8850d16-dda0-11e6-96ec-5ca0c17a3fdf.png)
 ##
-## Les critiques de cinéma. Cliquez l'image pour lire le détail
+## Le critiques du cinéma a été choisi. Cliquez l'image pour lire le détail
 ##
 ![screenshot_1484750188](https://cloud.githubusercontent.com/assets/21304543/22071866/d50755e4-dda0-11e6-919e-e7730a6a33f7.png)
 ##
