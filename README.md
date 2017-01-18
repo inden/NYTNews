@@ -1,5 +1,5 @@
 # (Etude) NewsApp 
-## - Une application Android qui affiche l'acutalité et le critique Cinéma fournis par l'API de The New York Times, développée pour expérimenter des technologies Android citées en bas
+## - Une application Android pour l'acutalité diverse et le critique du Cinéma fournis par l'API de The New York Times, développée pour expérimenter des technologies Android citées en bas
 ## 
 ## Comment utiliser?
 ##
@@ -35,6 +35,7 @@ SDK API 19 ou supérieur
 - Data Binding
 - Material Design - Navigation View
 - RecycleView, CardView
+- Dialog Fragment
 - Open API de "The New York Times"
 - Retrofit2, Picasso
 
