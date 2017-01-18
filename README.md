@@ -13,7 +13,7 @@
 ##
 ## Le menu de navigation à partir du boutton en haut à gauche. On peux filter les nouvelles par secteur et lire le critique du cinéma
 ##
-
+![screenshot_1484750114](https://cloud.githubusercontent.com/assets/21304543/22072888/109b1d40-dda4-11e6-98dd-52deedbd8f34.png)
 ##
 ## Les nouvelles sont maintenant filtrées par le secteur "world"
 ##
