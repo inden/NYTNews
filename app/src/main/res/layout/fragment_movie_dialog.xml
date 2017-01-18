@@ -1,0 +1,89 @@
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+    <data>
+        <variable
+            name="movie"
+            type="com.in.den.android.popnews.data.Movie.Result"/>
+        <variable
+            name="presenter"
+            type="com.in.den.android.popnews.MoviePresenter"/>
+    </data>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context="com.in.den.android.popnews.MovieDialogFragment">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:padding="16dp"
+            android:onClick="@{(view) -> presenter.dismiss()}">
+
+
+            <TextView
+                android:id="@+id/textViewTitle"
+                android:text="@{movie.displayTitle}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:textSize="24dp"
+                android:textStyle="bold"
+                android:paddingBottom="24dp"
+               />
+
+            <ImageView
+                android:id="@+id/thumbnail"
+                android:layout_width="200dp"
+                android:layout_height="160dp"
+                android:scaleType="fitXY"
+                app:imageUrl="@{movie.Multimedia.src}"
+                android:layout_below="@+id/textViewTitle"
+                android:paddingBottom="24dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewHead"
+                android:text="@{movie.headline}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/thumbnail"
+                android:textStyle="bold"
+                android:paddingBottom="12dp"
+                />
+
+            <TextView
+                android:id="@+id/textViewBy"
+                android:text="By "
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewHead"
+                />
+
+            <TextView
+                android:id="@+id/textViewByline"
+                android:text="@{movie.byline}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/textViewBy"
+                android:layout_below="@+id/textViewHead"
+                />
+
+            <TextView
+                android:id="@+id/textViewSummery"
+                android:text="@{movie.summaryShort}"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/textViewBy"
+                android:paddingTop="24dp"
+                />
+
+            <!-- WebView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/webView"
+                android:layout_below="@+id/textViewSummery"
+                app:loadUrl="@{movie.link.url}"/-->
+
+        </RelativeLayout>
+    </FrameLayout>
+</layout>
