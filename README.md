@@ -39,7 +39,7 @@ The detail page.
 
 - Data Binding
 - Navigation View
-- RecycleView, CardView
+- RecyclerView, CardView
 - Web View
 - Dialog Fragment
 - Libraries :Retrofit2, Picasso
