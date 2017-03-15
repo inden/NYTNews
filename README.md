@@ -4,7 +4,7 @@ I developed this app to learn Retroprofit2 and Data binding.
 
 ## How to use ##
 
-### News pages ###
+### News section ###
 Most consulted articles of all categories. Articles are listed in the order returned from the API.
 Each article belong to a category. An article is displayed with the folder color of category.
 
@@ -14,7 +14,8 @@ Click an article of your choice to read the detail.
 
 <img src="https://cloud.githubusercontent.com/assets/21304543/22072751/9b508e3a-dda3-11e6-8d82-278d7e3385b8.png" width="400"/>
 
-## The toggle button at the top left. Click the button to filter articles by category or to switch to the Movie section. #
+## Navigation ##
+The toggle button at the top left. Click the button to filter articles by category or to switch to the Movie section. #
 
 <img src="https://cloud.githubusercontent.com/assets/21304543/22072888/109b1d40-dda4-11e6-98dd-52deedbd8f34.png" width="400"/>
 
@@ -37,8 +38,9 @@ The detail page.
 ### Technology ###
 
 - Data Binding
-- Material Design - Navigation View
+- Navigation View
 - RecycleView, CardView
+- Web View
 - Dialog Fragment
 - Libraries :Retrofit2, Picasso
 
