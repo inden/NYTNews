@@ -21,7 +21,7 @@ public class NYTProvider {
 
     private static NYTService nytService = null;
     private static final String baseurl = "http://api.nytimes.com/";
-    private static final String APIKEY_VALUE = "32282837b46c4625a40e3c5f38466e7a";
+    private static final String APIKEY_VALUE = "your-apikey-value-here";
     private static final String APIKEY_PARAM = "api-key";
 
 
